@@ -6,5 +6,5 @@
 4. [Only One ouput Schematic](#Schematic of one output)
 5. [Kicad sources files](#Kicad sources files)
 ***
-##230V Schematic
+## 230V Schematic
 ![230V Schematic](230VAC_part.png)
