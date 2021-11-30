@@ -1,6 +1,6 @@
 # PedalBoard-Alimentation
 ***
-::: tip Table of contents
+## Table of contents
 1. [230V Schematic](#230v-schematic)
 2. [Diode Bridge Schematic](#diode-bridge-schematic)
 3. [Regulated ouput Schematic](#regulated-output-schematic)
@@ -12,7 +12,6 @@
 8. [Replicate Project](#replicate-project)
     1. [10 Outputs (7x9v + 3x9-12v) Version](#10-outputs-version)
     2. [7 Outputs (7x9v) Version](#7-outputs-version)
-:::
 ***
 ## 230V Schematic
 ![230V Schematic](Images/Common/230VAC_part.png)
@@ -38,3 +37,13 @@ Both regulations can be used in the same power supply. However keep in mind that
 ![9V output schematic](Images/Common/unit-9v.png)
 The 4007 diode is used to prevent non-regulated voltage to go into your regulated voltage. C2 and C24 basicaly reduce noise from the regulator. The TVS diode protect your pedals against surges. I suggest to use 1A or 1.5A regulators to minimize thermal dissipation and to have an important margin ( specialy if you want to connect several pedals). Moreover, you have to had a heatsink to your regulator (a piece of aluminium should be enough).
 ### 9-12V Output
+![9-12V ouput schematic](Images/Common/ubit-9-12v.png)
+This circuit is based on LM317. You have a switch (or anything else you want which can switch) between 2 resistors. The value of this two resistor is calculted to deliver 9V for the 1.5k resistor and 12v for the 2.15k resistor. You can add an other resistor and change your switch to choose between 9,12, and 18V for exemple. The output voltage of an LM317 in this case is calculated by the relation :
+
+![formula1](https://render.githubusercontent.com/render/math?math=V_{out}=1.25\times(1+\frac{R2}{R1}))
+
+In this case, R7 or R8 are R2 and R9 is R1. For exemple, let's calculate Vout for R8 :
+
+![formula1](https://render.githubusercontent.com/render/math?math=V_{out}=1.25\times(1+\frac{1500}{240})=9.06V)
+
+C22 and C33 do the same job as same capacitors for the 9V ouput.
