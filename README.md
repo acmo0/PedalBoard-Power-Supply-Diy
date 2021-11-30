@@ -54,4 +54,25 @@ The first row contain 9V outputs and the second contain adjustable outputs.
 ![10-O schematic](Images/10O/alim-schema.png)
 I designed the associated pcb :
 ![10-O schematic](Images/10O/alim_brd.png)
-If you want to replicate with this exact pcb you can download the [pdf of the pcb](Images/10O/alim-F_Cu.pdf) and use your prefered methode to create pcb. You can also download the [kicad schematic](Sources/10O/alim10o.sch) if you want to create your own pcb design or simply take a look at it. You can also download the [entire kicad](Sources/10O/10O.zip) project with schematic and pcb
+If you want to replicate with this exact pcb you can download the [pdf of the pcb](Images/10O/alim-F_Cu.pdf) and use your prefered methode to create pcb. You can also download the [kicad schematic](Sources/10O/alim10o.sch) if you want to create your own pcb design or simply take a look at it. You can also download the [entire kicad project](Sources/10O.zip) with schematic and pcb.
+#### Bill of Materials
+|Ref                                                          |Qnty|Value          |
+|-------------------------------------------------------------|----|---------------|
+|C1, C3, C5, C7, C9, C11, C13,                                |7   |0.33µF         |
+|C2, C4, C6, C8, C10, C12, C14, C15, C18, C35, C36, C37, C38, |13  |0.1µF          |
+|C16, C19, C22,                                               |3   |10µF           |
+|C21,                                                         |1   |O.1µF          |
+|C24, C25, C26, C27, C28, C29, C30, C31, C32, C33,            |10  |33µF           |
+|C34,                                                         |1   |2200µF         |
+|D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13,      |13  |1N4007         |
+|D14, D15, D16, D17,                                          |4   |D_Schottky     |
+|F1,                                                          |1   |Polyfuse       |
+|J1, J2, J3, J4, J5, J6, J7, J8, J9, J10,                     |10  |Barrel_Jack    |
+|J11,                                                         |1   |Conn_01x03_Male|
+|J12, J13, J14,                                               |3   |Conn_01x03_Male|
+|R1, R4, R7,                                                  |3   |2.15k          |
+|R2, R5, R8,                                                  |3   |1.5k           |
+|R3, R6, R9,                                                  |3   |240            |
+|U1, U2, U3, U4, U5, U6, U7,                                  |7   |L7809          |
+|U8, U9, U10,                                                 |3   |LM317          |
+
