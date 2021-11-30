@@ -46,3 +46,12 @@ In this case, R7 or R8 are R2 and R9 is R1. For exemple, let's calculate Vout fo
 ![formula1](https://render.githubusercontent.com/render/math?math=V_{out}=1.25\times(1%2B\frac{1500}{240})=9.06V)
 
 C22 and C33 do the same job as same capacitors for the 9V ouput.
+
+## Replicate Project
+### 10 Outputs Version
+Here is the schematic. Please note that it's the first version so this schematic and the associated pcb don't include TVS diodes.
+The first row contain 9V outputs and the second contain adjustable outputs.
+![10-O schematic](Images/10O/alim-schema.png)
+I designed the associated pcb :
+![10-O schematic](Images/10O/alim_brd.png)
+If you want to replicate with this exact pcb you can download the [pdf of the pcb](Images/10O/alim-F_Cu.pdf) and use your prefered methode to create pcb. You can also download the [kicad schematic](Sources/10O/alim10o.sch) if you want to create your own pcb design or simply take a look at it.
