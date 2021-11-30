@@ -3,11 +3,13 @@
 # Table of contents
 1. [230V Schematic](#230v-schematic)
 2. [Diode Bridge Schematic](#diode-bridge-schematic)
-3. [10 Ouputs (7x9V +3x9-12V) Schematic and PCB](#10-ouputs-schematic) 
-4. [7 Outpout (7x9v) Schematic and PCB](#7_Output_Schematic_and_PCB)
-5. [Only One ouput Schematic](#Schematic_of_one_output)
-6. [Kicad sources files](#Kicad_sources_files)
-7. [Replicate Project](#replicate-project)
+3. [Regulated ouput Schematic](#regulated-output-schematic)
+    1. [9V Output](#9v-output)
+    2. [9-12V Output](#9-12v-output)
+5. [10 Ouputs (7x9V +3x9-12V) Schematic and PCB](#10-ouputs-schematic) 
+6. [7 Outpout (7x9v) Schematic and PCB](#7_Output_Schematic_and_PCB)
+7. [Kicad sources files](#Kicad_sources_files)
+8. [Replicate Project](#replicate-project)
     1. [10 Outputs (7x9v + 3x9-12v) Version](#10-outputs-version)
     2. [7 Outputs (7x9v) Version](#7-outputs-version)
 ***
@@ -24,3 +26,12 @@ For exemple this is the tension at the output of the diode bridge if your transf
 ## Diode Bridge Schematic
 
 ![Diode Bridge Schematic](Images/Common/diode_bridge.png)
+
+You connect each transformer outputs (if your transformer have only one secondary coil) on the "From-transformer-secondary-output_X" labels.
+There are capacitors in parallel of each diodes to minimize noise from diodes. You have also a 2200µF capacitor to "smooth" the voltage from the diode bridge.
+Finaly, you have a 1.85A polyfuse to protect your power supply and pedals mainly against short-circuits. All regulators are connected on "diodes bridge output".
+
+## Regulated Outputs Schematic
+Both regulations can be used in the same power supply. However keep in mind that you have to adapt transformer, diodes for the diodes bridge and polyfuse to the maximum current which can be used by your power supply (and add a margin of course).
+### 9V Output
+![9V output schematic](Images/Common/9V-unit.png)
