@@ -34,4 +34,4 @@ Finaly, you have a 1.85A polyfuse to protect your power supply and pedals mainly
 ## Regulated Outputs Schematic
 Both regulations can be used in the same power supply. However keep in mind that you have to adapt transformer, diodes for the diodes bridge and polyfuse to the maximum current which can be used by your power supply (and add a margin of course).
 ### 9V Output
-![9V output schematic](Images/Common/9V-unit.png)
+![9V output schematic](Images/Common/unit-9v.png)
