@@ -8,4 +8,4 @@
 5. [Kicad sources files](#Kicad_sources_files)
 ***
 ## 230V Schematic
-![230V Schematic](230VAC_part.png)
+![230V Schematic](Images/Common/230VAC_part.png)
