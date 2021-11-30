@@ -6,12 +6,11 @@
 3. [Regulated ouput Schematic](#regulated-output-schematic)
     1. [9V Output](#9v-output)
     2. [9-12V Output](#9-12v-output)
-5. [10 Ouputs (7x9V +3x9-12V) Schematic and PCB](#10-ouputs-schematic)
-6. [7 Outpout (7x9v) Schematic and PCB](#7_Output_Schematic_and_PCB)
-7. [Kicad sources files](#Kicad_sources_files)
 8. [Replicate Project](#replicate-project)
     1. [10 Outputs (7x9v + 3x9-12v) Version](#10-outputs-version)
     2. [7 Outputs (7x9v) Version](#7-outputs-version)
+    3. [Custom power supply](#custom-power-supply)
+7. [Kicad sources files](#Kicad_sources_files)
 ***
 ## 230V Schematic
 ![230V Schematic](Images/Common/230VAC_part.png)
