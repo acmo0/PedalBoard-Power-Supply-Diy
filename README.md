@@ -40,10 +40,10 @@ The 4007 diode is used to prevent non-regulated voltage to go into your regulate
 ![9-12V ouput schematic](Images/Common/ubit-9-12v.png)
 This circuit is based on LM317. You have a switch (or anything else you want which can switch) between 2 resistors. The value of this two resistor is calculted to deliver 9V for the 1.5k resistor and 12v for the 2.15k resistor. You can add an other resistor and change your switch to choose between 9,12, and 18V for exemple. The output voltage of an LM317 in this case is calculated by the relation :
 
-![formula1](https://render.githubusercontent.com/render/math?math=V_{out}=1.25\times(1+\frac{R2}{R1}))
+![formula1](https://render.githubusercontent.com/render/math?math=V_{out}=1.25\times(1%2B\frac{R2}{R1}))
 
 In this case, R7 or R8 are R2 and R9 is R1. For exemple, let's calculate Vout for R8 :
 
-![formula1](https://render.githubusercontent.com/render/math?math=V_{out}=1.25\times(1+\frac{1500}{240})=9.06V)
+![formula1](https://render.githubusercontent.com/render/math?math=V_{out}=1.25\times(1%2B\frac{1500}{240})=9.06V)
 
 C22 and C33 do the same job as same capacitors for the 9V ouput.
