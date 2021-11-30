@@ -1,7 +1,6 @@
 # PedalBoard-Alimentation
 ***
-# Table of contents
-::: tip
+::: tip Table of contents
 1. [230V Schematic](#230v-schematic)
 2. [Diode Bridge Schematic](#diode-bridge-schematic)
 3. [Regulated ouput Schematic](#regulated-output-schematic)
