@@ -23,4 +23,4 @@ For exemple this is the tension at the output of the diode bridge if your transf
 
 ## Diode Bridge Schematic
 
-![Diode Bridge Schematic](Images/Common/diade_bridge.png)
+![Diode Bridge Schematic](Images/Common/diode_bridge.png)
