@@ -12,4 +12,4 @@
 ***
 ## 230V Schematic
 ![230V Schematic](Images/Common/230VAC_part.png)
-This is a basic schematic in order to protect your pedalboard against surges (VDR), short-circuit (fuse), electrical noise(EMI filter). You have to use at least a 230/12VAC transformer (best option because it causes less power dissipation on your regulators) and at most 230/18VAC transformer (you have to adapt this limit to your regulators specs). Keep in mind that after the diode brige the voltage is ![formula1](https://render.githubusercontent.com/render/math?math=\sqrt{2}\times V_{transformer})
+This is a basic schematic in order to protect your pedalboard against surges (VDR), short-circuit (fuse), electrical noise(EMI filter). You have to use at least a 230/12VAC transformer (best option because it causes less power dissipation on your regulators) and at most 230/18VAC transformer (you have to adapt this limit to your regulators specs). Keep in mind that after the diode brige the voltage is ![formula1](https://render.githubusercontent.com/render/math?math=\sqrt{2}\times%20V_{transformer})
