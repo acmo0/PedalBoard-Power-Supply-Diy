@@ -1,6 +1,7 @@
 # PedalBoard-Alimentation
 ***
 # Table of contents
+|
 1. [230V Schematic](#230v-schematic)
 2. [Diode Bridge Schematic](#diode-bridge-schematic)
 3. [Regulated ouput Schematic](#regulated-output-schematic)
@@ -11,7 +12,7 @@
 7. [Kicad sources files](#Kicad_sources_files)
 8. [Replicate Project](#replicate-project)
     1. [10 Outputs (7x9v + 3x9-12v) Version](#10-outputs-version)
-    2. [7 Outputs (7x9v) Version](#7-outputs-version)
+    2. [7 Outputs (7x9v) Version](#7-outputs-version)|
 ***
 ## 230V Schematic
 ![230V Schematic](Images/Common/230VAC_part.png)
