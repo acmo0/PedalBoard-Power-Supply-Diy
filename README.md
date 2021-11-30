@@ -54,4 +54,4 @@ The first row contain 9V outputs and the second contain adjustable outputs.
 ![10-O schematic](Images/10O/alim-schema.png)
 I designed the associated pcb :
 ![10-O schematic](Images/10O/alim_brd.png)
-If you want to replicate with this exact pcb you can download the [pdf of the pcb](Images/10O/alim-F_Cu.pdf) and use your prefered methode to create pcb. You can also download the [kicad schematic](Sources/10O/alim10o.sch) if you want to create your own pcb design or simply take a look at it.
+If you want to replicate with this exact pcb you can download the [pdf of the pcb](Images/10O/alim-F_Cu.pdf) and use your prefered methode to create pcb. You can also download the [kicad schematic](Sources/10O/alim10o.sch) if you want to create your own pcb design or simply take a look at it. You can also download the [entire kicad](Sources/10O/10O.zip) project with schematic and pcb
