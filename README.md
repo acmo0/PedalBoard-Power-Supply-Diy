@@ -80,7 +80,11 @@ If you want to replicate this pcb, I advise you to download at least the kicad p
 
 ## 7 Outputs version
 
-
+Here is the schematic :
+![7O schematic](Images/7O/alim70.png)
+And the associated pcb :
+![7O pcb](Images/7O/alim-brd7O.png)
+If you want to replicate this exact version, you can download the [pdf of the pcb](Images/alim-F_Cu.pdf)
 
 ### Bill of material
 |Ref                                                          |Qnty|Value          |Description                                                                                           |FIELD5|FIELD6|FIELD7|
