@@ -75,3 +75,8 @@ If you want to replicate with this exact pcb you can download the [pdf of the pc
 |U1, U2, U3, U4, U5, U6, U7,                                  |7   |L7809          |Positive 1.5A 35V Linear Regulator, Fixed Output 9V, TO-220/TO-263/TO-252                             |
 |U8, U9, U10,                                                 |3   |LM317          |1.5A 35V Adjustable Linear Regulator, TO-220                                                          |
 
+
+If you want to replicate this pcb, I advise you to download at least the kicad pcb file to know where are components.
+
+## 7 Outputs version
+
