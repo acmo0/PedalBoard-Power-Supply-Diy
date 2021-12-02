@@ -10,7 +10,7 @@
     1. [10 Outputs (7x9v + 3x9-12v) Version](#10-outputs-version)
     2. [7 Outputs (7x9v) Version](#7-outputs-version)
     3. [Custom power supply](#custom-power-supply)
-7. [Kicad sources files](#Kicad_sources_files)
+7. [Kicad sources files](#Kicad-sources-files)
 ***
 ## 230V Schematic
 ![230V Schematic](Images/Common/230VAC_part.png)
@@ -98,7 +98,19 @@ You can [download it](Sources/7O/BOM-7O.csv) in csv format.
 |D1, D2, D3, D4, D5, D6, D7,                                  |7   |1N4007         |Diode                                                                                                 |
 |D8, D9, D10, D11, D12, D13, D18,                             |7   |SM6T10A        |10V TVS diode                                                                                         |
 |D14, D15, D16, D17,                                          |4   |D_Schottky     |3A Schottky diode                                                                                     |
-|F1,                                                          |1   |Polyfuse       |Resettable fuse, polymeric positive temperature coefficient                                           |
+|F1,                                                          |1   |Polyfuse       |Resettable fuse, polymeric positive temperature coefficient                                           | 
 |J1, J2, J3, J4, J5, J6, J7,                                  |7   |Barrel_Jack    |DC Barrel Jack                                                                                        |
 |J11,                                                         |1   |Conn_01x03_Male|Generic connector, single row                                                                         |
 |U1, U2, U3, U4, U5, U6, U7,                                  |7   |L7809          |Positive 1.5A 35V Linear Regulator, Fixed Output 9V                                                   |
+
+## Kicad Sources files
+* 10 outputs files :
+    * [schematic](Sources/10O/alim10o.sch)
+    * [pcb](Sources/10O/alim10o.kicad_pcb)
+    * [bill of materials](Sources/10O/alim10o.csv)
+    * [kicad project ( zipped )](Sources/10O.zip)
+* 7 outputs files :
+    * [schematic](Sources/7O/alim.sch)
+    * [pcb](Sources/7O/alim.kicad_pcb)
+    * [bill of materials](Sources/7O/BOM-7O.csv)
+    * [kicad project ( zipped )](Sources/7O.zip)
