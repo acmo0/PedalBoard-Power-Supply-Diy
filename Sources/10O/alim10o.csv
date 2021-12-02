@@ -1,0 +1,17 @@
+Ref,Qnty,Value,Description
+"C1, C3, C5, C7, C9, C11, C13, ",7,0.33µF,Unpolarized capacitor
+"C2, C4, C6, C8, C10, C12, C14, C15, C18, C21, C35, C36, C37, C38, ",14,0.1µF,Unpolarized capacitor
+"C16, C19, C22, ",3,10µF,Unpolarized capacitor
+"C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, ",10,33µF,Polarized capacitor
+"C34, ",1,2200µF,"Polarized capacitor, US symbol"
+"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, ",13,1N4007,Diode
+"D14, D15, D16, D17, ",4,D_Schottky,Schottky diode
+"F1, ",1,Polyfuse,"Resettable fuse, polymeric positive temperature coefficient"
+"J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, ",10,Barrel_Jack,DC Barrel Jack
+"J11, ",1,Conn_01x03_Male,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"J12, J13, J14, ",3,Conn_01x03_Male,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+"R1, R4, R7, ",3,2.15k,Resistor
+"R2, R5, R8, ",3,1.5k,Resistor
+"R3, R6, R9, ",3,240,Resistor
+"U1, U2, U3, U4, U5, U6, U7, ",7,L7809,"Positive 1.5A 35V Linear Regulator, Fixed Output 9V, TO-220/TO-263/TO-252"
+"U8, U9, U10, ",3,LM317,"1.5A 35V Adjustable Linear Regulator, TO-220"
