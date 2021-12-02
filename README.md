@@ -11,6 +11,7 @@
     2. [7 Outputs (7x9v) Version](#7-outputs-version)
     3. [Custom power supply](#custom-power-supply)
 7. [Kicad sources files](#Kicad-sources-files)
+8. [Issues](#issues)
 ***
 ## 230V Schematic
 ![230V Schematic](Images/Common/230VAC_part.png)
@@ -114,3 +115,6 @@ You can [download it](Sources/7O/BOM-7O.csv) in csv format.
     * [pcb](Sources/7O/alim.kicad_pcb)
     * [bill of materials](Sources/7O/BOM-7O.csv)
     * [kicad project ( zipped )](Sources/7O.zip)
+
+## Issues
+Please feel free to open an issue if you find an error, want more informations or something else.
