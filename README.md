@@ -80,23 +80,23 @@ If you want to replicate this pcb, I advise you to download at least the kicad p
 
 ## 7 Outputs version
 
-Here is the schematic :
-![7O schematic](Images/7O/alim70.png)
-And the associated pcb :
+Here is the [schematic](Images/7O/alim7O.png) :
+![7O schematic](Images/7O/alim7O.png)
+And the associated [pcb](Images/7O/alim-brd7O.png) :
 ![7O pcb](Images/7O/alim-brd7O.png)
-If you want to replicate this exact version, you can download the [pdf of the pcb](Images/alim-F_Cu.pdf)
+If you want to replicate this exact version, you can download the [pdf of the pcb](Images/alim-F_Cu.pdf) or download the [pcb](Sources/7O/alim.kicad_pcb),[schematic](Sourcces/7O/alim.sch) or the [entire kicad project](Sources/7O.zip). I advise you to download at least the [pcb](Images/7O/alim-brd7O.png) or the [kicad pcb file](Sources/7O/alim.kicad_pcb) if you want to replicate this project.
 
 ### Bill of material
-|Ref                                                          |Qnty|Value          |Description                                                                                           |FIELD5|FIELD6|FIELD7|
-|-------------------------------------------------------------|----|---------------|------------------------------------------------------------------------------------------------------|------|------|------|
-|C1, C3, C5, C7, C9, C11, C14,                                |7   |0.33µF         |Unpolarized capacitor                                                                                 |      |      |      |
-|C2, C4, C6, C8, C10, C12, C15, C35, C36, C37, C38,           |11  |0.1µF          |Unpolarized capacitor                                                                                 |      |      |      |
-|C13, C16, C24, C25, C26, C27, C28,                           |7   |33µF           |Polarized capacitor                                                                                   |      |      |      |
-|C34,                                                         |1   |2200µF         |Polarized capacitorl                                                                                  |      |      |      |
-|D1, D2, D3, D4, D5, D6, D7,                                  |7   |1N4007         |Diode                                                                                                 |      |      |Vendor|
-|D8, D9, D10, D11, D12, D13, D18,                             |7   |SA10A          |10V TVS diode                                                                                         |      |      |      |
-|D14, D15, D16, D17,                                          |4   |D_Schottky     |3A Schottky diode                                                                                     |      |      |      |
-|F1,                                                          |1   |Polyfuse       |Resettable fuse, polymeric positive temperature coefficient                                           |      |      |      |
-|J1, J2, J3, J4, J5, J6, J7,                                  |7   |Barrel_Jack    |DC Barrel Jack                                                                                        |      |      |      |
-|J11,                                                         |1   |Conn_01x03_Male|Generic connector, single row                                                                         |      |      |      |
-|U1, U2, U3, U4, U5, U6, U7,                                  |7   |L7809          |Positive 1.5A 35V Linear Regulator, Fixed Output 9V                                                   |      |      |      |
+|Ref                                                          |Qnty|Value          |Description                                                                                           |
+|-------------------------------------------------------------|----|---------------|------------------------------------------------------------------------------------------------------|
+|C1, C3, C5, C7, C9, C11, C14,                                |7   |0.33µF         |Unpolarized capacitor                                                                                 |
+|C2, C4, C6, C8, C10, C12, C15, C35, C36, C37, C38,           |11  |0.1µF          |Unpolarized capacitor                                                                                 |
+|C13, C16, C24, C25, C26, C27, C28,                           |7   |33µF           |Polarized capacitor                                                                                   |
+|C34,                                                         |1   |2200µF         |Polarized capacitorl                                                                                  |
+|D1, D2, D3, D4, D5, D6, D7,                                  |7   |1N4007         |Diode                                                                                                 |
+|D8, D9, D10, D11, D12, D13, D18,                             |7   |SM6T10A        |10V TVS diode                                                                                         |
+|D14, D15, D16, D17,                                          |4   |D_Schottky     |3A Schottky diode                                                                                     |
+|F1,                                                          |1   |Polyfuse       |Resettable fuse, polymeric positive temperature coefficient                                           |
+|J1, J2, J3, J4, J5, J6, J7,                                  |7   |Barrel_Jack    |DC Barrel Jack                                                                                        |
+|J11,                                                         |1   |Conn_01x03_Male|Generic connector, single row                                                                         |
+|U1, U2, U3, U4, U5, U6, U7,                                  |7   |L7809          |Positive 1.5A 35V Linear Regulator, Fixed Output 9V                                                   |
