@@ -85,7 +85,7 @@ Here is the [schematic](Images/7O/alim7O.png) :
 ![7O schematic](Images/7O/alim7O.png)
 And the associated [pcb](Images/7O/alim-brd7O.png) :
 ![7O pcb](Images/7O/alim-brd7O.png)
-If you want to replicate this exact version, you can download the [pdf of the pcb](Images/alim-F_Cu.pdf) or download the [pcb](Sources/7O/alim.kicad_pcb),[schematic](Sourcces/7O/alim.sch) or the [entire kicad project](Sources/7O.zip). I advise you to download at least the [pcb](Images/7O/alim-brd7O.png) or the [kicad pcb file](Sources/7O/alim.kicad_pcb) if you want to replicate this project.
+If you want to replicate this exact version, you can download the [pdf of the pcb](Images/7O/alim-F_Cu.pdf) or download the [pcb](Sources/7O/alim.kicad_pcb),[schematic](Sourcces/7O/alim.sch) or the [entire kicad project](Sources/7O.zip). I advise you to download at least the [pcb](Images/7O/alim-brd7O.png) or the [kicad pcb file](Sources/7O/alim.kicad_pcb) if you want to replicate this project.
 
 ### Bill of material
 You can [download it](Sources/7O/BOM-7O.csv) in csv format.
